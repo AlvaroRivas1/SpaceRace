@@ -1,0 +1,16 @@
+void setup() {
+  frameRate(4);
+}
+ 
+int limit = 600;
+int counter = limit;
+ 
+void draw() {
+  background(204);
+  counter--;
+  text(counter, 40, 30);
+  
+  if(counter == 0){
+    exit();  
+    }
+}
